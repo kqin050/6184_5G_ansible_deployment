@@ -1,0 +1,71 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "VMware, Inc.",
+    "Product": "VMware Virtual Platform",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "Phoenix Technologies LTD",
+    "Version": "6.00"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "2",
+    "Threads": "1",
+    "Cores": "1",
+    "Sockets": "2",
+    "Vendor": "AuthenticAMD",
+    "Family": "25",
+    "Model": "33",
+    "Stepping": "0",
+    "Name": "AMD Ryzen 7 5800 8-Core Processor",
+    "Hypervisor": "VMware",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 4,
+  "Disks": [
+    42.9
+  ],
+  "Partitions": [
+    41
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1718x868",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Los_Angeles",
+  "Install": {
+    "Media": "Ubuntu 18.04.6 LTS \"Bionic Beaver\" - Release amd64 (20210915)",
+    "Type": "GTK",
+    "OEM": false,
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "4": "start_install",
+      "5": "user_done",
+      "227": "done"
+    }
+  }
+}
